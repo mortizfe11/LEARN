@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
+
+
+
+#clr-guardian{color: var(--guardian);outline-color: var(--guardian);background: var(--guardian);}
+#clr-hostigador{
+   color: var(--hostigador);outline-color: var(--hostigador);background: var(--hostigador);
+}
+#clr-canalizador{
+   color: var(--canalizador);outline-color: var(--canalizador);background: var(--canalizador);
+}
+#clr-orador{
+   color: var(--orador);outline-color: var(--orador);background: var(--orador);
+}
+
+.content-cards{
+  margin: 0 auto;
+  min-width: 760px;
+  max-width: 900px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  place-content: center;
+}
+
+.card{
+  height: 295px;
+  width: 200px;
+  box-shadow: 5px 10px;
+  margin-bottom: 20px;
+  font: 12px arial;
+  text-align: justify;
+  text-shadow: 1px 1px 2px black;
+}
+
+.info-card p{
+  font: 16px "Oswald", sans-serif;
+  margin: -295px 7px 0px;
+  position: relative;
+  text-shadow: 1px 1px 2px black;
+}
+
+.descrip-card:hover{
+  opacity: 1;
+  -ms-transition: all 1s ease-in;
+  -o-transition: all 1s ease-in;
+  -webkit-transition: all 1s ease-in;
+  -moz-transition: all 1s ease-in;
+}
+
+.descrip-card{
+  position: relative;
+  padding: 10px;
+  height: 240px;
+  width: 180px;
+  top: -302px;
+  opacity: 0;
+  color: #cacaca;
+  overflow-y: auto;
+  -ms-transition: all 1s ease-in;
+  -o-transition: all 1s ease-in;
+  -webkit-transition: all 1s ease-in;
+  -moz-transition: all 1s ease-in;
+}
+
+.descrip-card::-webkit-scrollbar
+{
+  width: 2px;
+}
+.descrip-card::-webkit-scrollbar-thumb
+{
+  background: var(--grey);
+}
