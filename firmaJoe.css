@@ -1,0 +1,50 @@
+.mja{
+  width: 280px;
+  height: 220px;
+  margin: 0 auto;
+  background: url(https://i.imgur.com/GaTJ4MI.png);
+  outline: 2px solid #735e5c;
+  outline-offset: -5px;
+}
+.mja-txt{
+  position: relative;
+  display: inline;
+  color: #868485;
+  font: italic 35px 'Anton', sans-serif;
+  top: 155px;
+  margin-left: 15px;
+  padding: 5px;
+  letter-spacing: 0.02em;
+}
+.letter-mja, .extra-mja{
+  display: inline;
+  position: relative;
+	transition: all 2s ease-in-out;
+	-webkit-transition: all 2s ease-in-out; /** Chrome & Safari **/
+	-moz-transition: all 2s ease-in-out; /** Firefox **/
+	-o-transition: all 2s ease-in-out;
+}
+.extra-mja{
+  z-index: 20;
+  opacity: 0;
+}
+.letter-mja{
+  margin-left: -107.5px;
+  z-index: 2;
+  transition-delay: 2s;
+}
+.mja:hover .extra-mja{
+  opacity: 1;
+	transition: all 2s ease-in-out;
+	-webkit-transition: all 2s ease-in-out; /** Chrome & Safari **/
+	-moz-transition: all 2s ease-in-out; /** Firefox **/
+	-o-transition: all 2s ease-in-out;
+  transition-delay: 2s;
+}
+.mja:hover .letter-mja{
+  margin-left: -35px;
+	transition: all 2s ease-in-out;
+	-webkit-transition: all 2s ease-in-out; /** Chrome & Safari **/
+	-moz-transition: all 2s ease-in-out; /** Firefox **/
+	-o-transition: all 2s ease-in-out;
+}
