@@ -19,9 +19,10 @@
 }
 
 .arrow {
+  --clr-arrow: #a897add8;
   width: 300px; 
   height: 70px; 
-  background: #a897ad;
+  background: var(--clr-arrow);
   transform: translate(350px, -95px);
   position: relative;
   margin: 0 auto;
@@ -31,16 +32,15 @@
 .arrow:before {
   width: 0; 
   height: 0; 
-  border-right: 120px solid #a897ad;
+  border-right: 120px solid var(--clr-arrow);
   border-top: 55px solid transparent;
   border-bottom: 55px solid transparent; 
-	content: "";
-	position: absolute;
-	pointer-events: none;
+  content: "";
+  position: absolute;
+  pointer-events: none;
   bottom: -28%;
   right: 100%;
 }
-
 .keith-txt{
   position: relative;
   padding: 25px;
