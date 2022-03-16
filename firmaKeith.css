@@ -12,10 +12,10 @@
 }
 
 .keith-m:hover .arrow, .keith-m:hover .keith-txt, .keith-m:hover .keith-fond, .arrow, .keith-txt, .keith-fond{
-	transition: all 2s ease-in-out;
-	-webkit-transition: all 2s ease-in-out; 
-	-moz-transition: all 2s ease-in-out; 
-	-o-transition: all 2s ease-in-out;
+  transition: all 2s ease-in-out;
+  -webkit-transition: all 2s ease-in-out; 
+  -moz-transition: all 2s ease-in-out; 
+  -o-transition: all 2s ease-in-out;
 }
 
 .arrow {
