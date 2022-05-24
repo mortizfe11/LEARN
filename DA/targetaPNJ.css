@@ -1,0 +1,38 @@
+.card-pnj{
+  width: 210px;
+  margin: 0 auto;
+}
+.img-pnj{
+  width: 200px;
+  height: 200px;
+  border: 5px solid var(--color-card);
+}
+.name-pnj{
+  width: 200px;
+  padding: 5px;
+  background: var(--color-card);
+  color: #000;
+  text-align: center;
+  font: 700 14px arial;
+}
+.info-pnj{
+  position: relative;
+  width: 180px;
+  height: 180px;
+  background: var(--color-card);
+  padding: 15px;
+  margin-bottom: -210px;
+  font: 400 10px arial;
+  text-align: justify;
+  overflow-y: auto;
+  opacity: 0;
+  transition: 2s all;
+  scrollbar-color: black var(--color-card);
+  scrollbar-width: thin;
+}
+.card-pnj:hover .info-pnj{
+  opacity: 1;
+  transition: 2s all;
+}
+.info-pnj::-webkit-scrollbar-thumb{background: #000;}
+.info-pnj::-webkit-scrollbar{width: 10px;}
