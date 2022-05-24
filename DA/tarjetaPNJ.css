@@ -34,5 +34,6 @@
   opacity: 1;
   transition: 2s all;
 }
-.info-pnj::-webkit-scrollbar-thumb{background: #000;}
+.info-pnj::-webkit-scrollbar-thumb{background: var(--color-card);}
 .info-pnj::-webkit-scrollbar{width: 10px;}
+.info-pnj::-webkit-scrollbar-track{background:#000;}
