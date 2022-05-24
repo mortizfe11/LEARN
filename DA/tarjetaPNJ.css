@@ -39,6 +39,9 @@
   opacity: 1;
   transition: 2s all;
 }
-.info-pnj::-webkit-scrollbar-thumb{background: #000;}
+.info-pnj::-webkit-scrollbar-thumb{
+  background: #000;
+  border-radius: 20px;
+}
 .info-pnj::-webkit-scrollbar{width: 5px;}
 .info-pnj::-webkit-scrollbar-track{background: var(--color-card);}
