@@ -43,5 +43,5 @@
   background: #000;
   border-radius: 20px;
 }
-.info-pnj::-webkit-scrollbar{width: 5px;}
+.info-pnj::-webkit-scrollbar{width: 10px;}
 .info-pnj::-webkit-scrollbar-track{background: var(--color-card);}
