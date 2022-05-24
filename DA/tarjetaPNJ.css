@@ -18,10 +18,10 @@
 .info-pnj{
   position: relative;
   width: 180px;
-  height: 180px;
+  height: 170px;
   background: var(--color-card);
   padding: 15px;
-  margin-bottom: -210px;
+  margin-bottom: -205px;
   font: 400 10px arial;
   text-align: justify;
   overflow-y: auto;
