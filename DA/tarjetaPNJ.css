@@ -15,7 +15,7 @@
 }
 .name-pnj{
   width: 200px;
-  padding: 5px;
+  padding: 0px 5px 5px;
   background: var(--color-card);
   text-align: center;
   font: 700 14px arial;
