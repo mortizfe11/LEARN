@@ -1,6 +1,7 @@
 .card-pnj{
   width: 210px;
   margin: 0 auto;
+  color: #000;
 }
 .img-pnj{
   width: 200px;
@@ -11,7 +12,6 @@
   width: 200px;
   padding: 5px;
   background: var(--color-card);
-  color: #000;
   text-align: center;
   font: 700 14px arial;
 }
