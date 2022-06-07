@@ -1,51 +1,57 @@
 .card-pnj{
   width: 210px;
+  height: 235px;
+  overflow-y: hidden;
   margin: 0 auto;
-  color: #000;
+  background: var(--color-card);
   display: flex;
   flex-direction: column;
-  align-content: center;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 .img-pnj{
+  position: relative;
   width: 200px;
   height: 200px;
-  border: 5px solid var(--color-card);
+  transform: translateX(-205px);
+  margin-left: 10px;
+  z-index: 3;
 }
 .name-pnj{
   width: 200px;
-  padding: 0px 5px 5px;
+  height: 15px;
+  padding: 5px;
   background: var(--color-card);
+  color: #000;
   text-align: center;
   font: 700 14px arial;
+  line-height: 150%;
+  transform: translateX(-200px);
 }
 .info-pnj{
   position: relative;
   width: 170px;
   height: 170px;
   background: var(--color-card);
-  border: 1px solid var(--color-card);
   padding: 15px;
-  margin-bottom: -205px;
+  margin: -25px 0px 0px;
+  right: -5px;
   font: 400 10px arial;
   text-align: justify;
   overflow-y: auto;
   opacity: 0;
-  transition: 2s all;
+  z-index: 4;
+  transition: 1.5s all;
   scrollbar-color: black var(--color-card);
   scrollbar-width: thin;
+  color: black;/*
+  transform: translateX(-205px);*/
 }
 .card-pnj:hover .info-pnj{
   opacity: 1;
-  transition: 2s all;
+  transition: 1.5s all;
 }
-.info-pnj::-webkit-scrollbar-thumb{
-  background: #000;
-  border-radius: 20px;
-}
-.info-pnj::-webkit-scrollbar{width: 10px;}
-.info-pnj::-webkit-scrollbar-track{
-  background: var(--color-card);
-  border-radius: 10px; 
-}
+.info-pnj::-webkit-scrollbar-thumb{background: #000;}
+.info-pnj::-webkit-scrollbar{width: 4px;}
+.info-pnj::-webkit-scrollbar-track{background: var(--color-card);}
