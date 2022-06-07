@@ -1,7 +1,7 @@
 .card-pnj{
   width: 210px;
   height: 235px;
-  overflow-y: hidden;
+  overflow: hidden;
   margin: 0 auto;
   background: var(--color-card);
   display: flex;
