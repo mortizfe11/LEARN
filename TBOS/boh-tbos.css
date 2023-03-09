@@ -24,7 +24,7 @@
 }
 
 .effects-box .effect-desc{text-align: justify;}
-.odds-box .odd-number,.effects-box .legend.effect-desc{text-align: center;}
+.odds-box .odd-number,.effects-box .legend.effect-desc, .effects-box .effect-type, .effects-box .effect-desc, .effects-box .effect-info{text-align: center;}
 
 .line-box{
   display: grid;
