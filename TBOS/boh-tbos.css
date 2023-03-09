@@ -9,7 +9,7 @@
 
 .effects-box{
   max-width: 600px;
-  grid-template-columns: 1fr 3fr 2fr;
+  grid-template-columns: 2fr 3fr 2fr;
 }
 
 .odds-box{
