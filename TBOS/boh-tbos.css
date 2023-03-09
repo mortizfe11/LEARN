@@ -101,4 +101,4 @@
 	width: 2px;
 }
 
-.hex-box br{display: none;}
+.hex-box br, .effects-box br, .odds-box br{display: none;}
