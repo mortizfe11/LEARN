@@ -4,7 +4,6 @@
 .effects-box, .odds-box{
   display: grid;
   gap: 0.5em;
-  align-items: sketch;
   justify-content: center;
 }
 
