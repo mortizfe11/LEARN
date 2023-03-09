@@ -1,0 +1,104 @@
+.grid-col-3{--num-cols: 1fr 1fr 1fr;}
+.grid-col-4{--num-cols: 1fr 1fr 1fr 1fr;}
+
+.effects-box, .odds-box{
+  display: grid;
+  gap: 0.2em;
+  align-items: sketch;
+  justify-content: center;
+}
+
+.effects-box{
+  max-width: 600px;
+  grid-template-columns: 1fr 3fr 2fr;
+}
+
+.odds-box{
+  max-width: 500px;
+  grid-template-columns: 1fr 3fr;
+  
+}
+.odds-box .odd-number, .odds-box .odd-info, .effects-box .effect-type, .effects-box .effect-desc, .effects-box .effect-info{
+  border: var(--border);
+  padding: 1em;
+}
+
+.effects-box .effect-desc{text-align: justify;}
+.odds-box .odd-number,.effects-box .legend.effect-desc{text-align: center;}
+
+.line-box{
+  display: grid;
+  grid-template-columns: var(--num-cols);
+  gap: 1em;
+  margin-top: 1em;
+}
+
+.hex-box, .odds-box, .effects-box{
+  color: white;
+  margin: 0 auto;
+  width: 100%;
+
+}
+
+.hex-box{
+  max-width: 1000px;
+}
+
+.title-box.fs-2{
+  font-size: 2em;
+}
+
+.title-box, .legend.line-box .descrip-box, .legend.line-box .bonus-box,.legend.line-box .code-box, .legend.line-box .handicap-box, .legend{
+  text-align: center;
+  font: 900 1em var(--fuente-texto);
+  text-transform: uppercase;
+}
+
+.title-box{
+  border: var(--border);
+  padding: 1.2em;
+  letter-spacing: 0.5em;
+  margin-top: 1em;
+}
+.title-box span{
+  color: var(--color-acento);
+}
+
+.line-box .descrip-box, .line-box .bonus-box, .line-box .code-box, .line-box .handicap-box{
+  border: var(--border);
+  padding: 1.2em;
+  height: 6rem;
+  overflow-y: auto;
+  scrollbar-color: var(--color-acento) var(--fondo-oscuro);
+  scrollbar-width: thin;
+  text-align: justify;
+}
+
+.line-box.atq{--color-box: rgb(173, 50, 50);}
+.line-box.def{--color-box: rgb(50, 122, 173);}
+.line-box.atdef{--color-box:rgb(117, 85, 188);}
+.line-box.cur{--color-box: rgb(98, 152, 54);}
+.line-box.nar{--color-box: rgb(152, 137, 54);}
+
+.line-box .descrip-box span{
+  display: block;
+  color: var(--color-box);
+  text-transform: uppercase;
+}
+
+.legend.line-box .descrip-box, .legend.line-box .bonus-box,.legend.line-box .code-box, .legend.line-box .handicap-box, .legend {
+  height: auto;
+  color: var(--color-acento);
+  line-height: 65%;
+}
+
+.line-box .descrip-box::-webkit-scrollbar-thumb, .line-box .bonus-box::-webkit-scrollbar-thumb, .line-box .code-box::-webkit-scrollbar-thumb, .line-box .handicap-box::-webkit-scrollbar-thumb
+{
+	background: var(--color-acento);
+}
+.line-box .descrip-box::-webkit-scrollbar, .line-box .bonus-box::-webkit-scrollbar, .line-box .code-box::-webkit-scrollbar, .line-box .handicap-box::-webkit-scrollbar
+{
+	width: 2px;
+}
+
+.hex-box br{display: none;}
