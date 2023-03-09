@@ -80,6 +80,7 @@
   display: block;
   color: var(--color-box);
   text-transform: uppercase;
+  letter-spacing: 0.2em;
 }
 
 .legend.line-box .descrip-box, .legend.line-box .bonus-box,.legend.line-box .code-box, .legend.line-box .handicap-box, .legend {
