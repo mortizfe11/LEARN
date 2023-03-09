@@ -3,17 +3,18 @@
 
 .effects-box, .odds-box{
   display: grid;
-  gap: 0.5em;
   justify-content: center;
 }
 
 .effects-box{
   max-width: 600px;
+  gap: 0.2em;
   grid-template-columns: 2fr 3fr 2fr;
 }
 
 .odds-box{
   max-width: 350px;
+  gap: 0.5em;
   grid-template-columns: 2fr 3fr;
   
 }
