@@ -39,13 +39,7 @@
 
 }
 
-.hex-box{
-  max-width: 1000px;
-}
-
-.title-box.fs-2{
-  font-size: 2em;
-}
+.hex-box{max-width: 1000px;}
 
 .title-box, .legend.line-box .descrip-box, .legend.line-box .bonus-box,.legend.line-box .code-box, .legend.line-box .handicap-box, .legend{
   text-align: center;
@@ -58,11 +52,13 @@
   padding: 1.2em;
   letter-spacing: 0.5em;
   margin-top: 1em;
-  font-size: 1.5em;
 }
-.title-box span{
-  color: var(--color-acento);
-}
+
+.title-box{font-size: 1.5em;}
+.title-box.fs-2{font-size: 2em;}
+.legend{font-size: 1.2em;}
+
+.title-box span{color: var(--color-acento);}
 
 .line-box .descrip-box, .line-box .bonus-box, .line-box .code-box, .line-box .handicap-box{
   border: var(--border);
