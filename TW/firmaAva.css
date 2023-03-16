@@ -117,10 +117,12 @@
   0% {
     -webkit-transform: rotate(0);
             transform: rotate(0);
+            color: var(--clr-ic1);
   }
   100% {
     -webkit-transform: rotate(360deg);
             transform: rotate(360deg);
+            color: var(--clr-ic2);
   }
 }
 @keyframes rotation {
