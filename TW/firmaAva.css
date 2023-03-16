@@ -69,7 +69,7 @@
   text-transform: uppercase;
   letter-spacing: -0.05em;
   font: 900 1.1em var(--fft);
-  color: var(--clr-txt2);
+  color: var(--clr-txt2) !important;
 }
 .ava-txt em{
   text-transform: uppercase;
