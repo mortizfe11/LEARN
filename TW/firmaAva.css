@@ -18,7 +18,7 @@
   outline-offset: 5px;
 }
 
-.ava-m:hover .arrow, .ava-m:hover .ava-txt, .ava-m:hover .ava-fond,.ava-m:hover .ava-fond2, .ava-txt, .ava-fond, .ava-fond2{
+.ava-m:hover .ava-txt, .ava-m:hover .ava-fond,.ava-m:hover .ava-fond2, .ava-txt, .ava-fond, .ava-fond2{
 	transition: all 1.5s ease-in-out;
 	-webkit-transition: all 1.5s ease-in-out; 
 	-moz-transition: all 1.5s ease-in-out; 
