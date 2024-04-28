@@ -1,0 +1,24 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+.f-book{
+  --ic-color: #96915b;
+  --bg-color: #222;
+  width: 290px;
+  height: 190px;
+  margin: 0 auto;
+  background: var(--bg-color);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.izq-book, .der-book{
+  width: 140px;
+  height: 180px;
+  transform: translateX(0px);
+  transition: 1.2s ease-in-out;
+  border-top: 5px solid var(--bg-color);
+  border-bottom: 5px solid var(--bg-color);
+  transition-delay: 1s;
+}
