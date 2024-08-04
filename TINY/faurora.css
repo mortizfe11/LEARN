@@ -1,1 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
 
+
+.f-aurora {
+  --clr-fond: #48434f;
+  --clr-bck: #5B5463;
+  --clr-ic: #101617;
+  --clr-txt: rgba(153,146,164, 0.9);
+  width: 268px;
+  height: 151px;
+  margin: 0 auto;
+  border: 5px solid var(--clr-bck);
+  font-size: 16px;
+}
+
+.aurora-ic{
+  position: relative;
+  color: var(--clr-ic);
+  font-size: 40px;
+  padding: 5px;
+  margin: 50px 0px 0px -27px;
+  background: var(--clr-bck);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  z-index: 4;
+}
+
+.aurora-txt{
+  padding: 20px;
+  position: relative;
+  color: var(--clr-txt);
+  font: 0.70rem "Red Hat Display", serif;
+  line-height: 110%;
+  opacity: 0;
+  transform: translateY(-17px);
+  transition: 1s ease-in-out 2s;
+  z-index: 4;
+
+}
+.aurora-txt u{
+  text-decoration: none;
+  border-bottom: 1px dashed var(--clr-bck);
+}
+
+.aurora-fond{
+  position: relative;
+  width: 268px;
+  height: 151px;
+  margin: 0 auto;
+  background: var(--clr-fond); 
+  transform: translateY(-177px);
+  mix-blend-mode: overlay; 
+  z-index: 3;
+  transition-delay: 1.5s;
+  opacity: 0;
+  transition: ease-in-out 2s;
+}
+
+.f-aurora:hover .aurora-ic{
+  animation: girar 2.5s linear infinite;
+
+}
+.f-aurora:hover .aurora-txt, .f-aurora:hover .aurora-fond{
+  opacity: 1;
+}
+
+@keyframes girar {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
