@@ -62,7 +62,7 @@
 }
 
 .f-aurora:hover .aurora-ic{
-  animation: girar 2.5s linear infinite;
+  animation: girar 2s linear infinite;
 
 }
 .f-aurora:hover .aurora-txt, .f-aurora:hover .aurora-fond{
