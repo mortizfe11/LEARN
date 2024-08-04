@@ -43,6 +43,10 @@
   border-bottom: 1px dotted var(--clr-fond);
 }
 
+.aurora-txt em{
+  color: var(--clr-bck);
+}
+
 .aurora-fond{
   position: relative;
   width: 268px;
