@@ -34,7 +34,7 @@
   line-height: 110%;
   opacity: 0;
   transform: translateY(-17px);
-  transition: 1s ease-in-out 2s;
+  transition: ease-in 1s;
   z-index: 4;
 
 }
