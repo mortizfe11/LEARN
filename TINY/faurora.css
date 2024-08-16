@@ -26,6 +26,9 @@
   z-index: 4;
 }
 
+.aurora-ic i{
+  margin: -1px 0px 0px 0px;
+}
 .aurora-txt{
   padding: 20px;
   position: relative;
