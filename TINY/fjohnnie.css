@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&family=UnifrakturMaguntia&display=swap');
+
+.firma-j{
+  --col1: #0c0c0d;
+  --col2: #874434;
+  width: 280px;
+  height: 160px;
+  margin: 0 auto;
+  font: 400 normal 0.8rem "Tinos", serif;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  border: 2px solid var(--col2);
+  padding: 5px;
+  overflow: hidden;
+}
+
+.icon-j{
+  text-align: center;
+  padding: 10px;
+  display: block;
+  font-size: 1.3rem;
+  animation: girar 10s linear infinite;
+
+}
+
+ .izq-j, .izq2-j {
+  height: 160px;  
+}
+.der-j, .der2-j{
+  height: 140px;
+  width: 55px;
+  padding: 10px;
+  margin-right: 5px;
+}
+
+.der-j{
+  background: var(--col1);
+  overflow: scroll;
+  word-wrap: break-word;  
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
+
+.der-j b{
+  color: var(--col2);
+}
+
+.der2-j{
+  font: 400 normal 2.2rem "UnifrakturMaguntia", cursive;
+  opacity: 0;
+  transform: translate(90px,0px);
+  transition: ease-in 1s;
+  z-index: 10;
+}
+
+.der2-j::first-letter{
+  color: var(--col2);
+  font-weight: 900;
+}
+
+.firma-j:hover .der2-j{
+  opacity: 1;
+  transform: translate(90px,-55px);
+  z-index: 10;
+  transition: ease-in 1s;
+}
+
+.izq-j, .izq2-j {
+  width: 200px;
+  background: var(--col1);
+}
+.izq2-j {
+  opacity: 0;
+  transform: translate(0px,-160px);
+  transition: all 1s ease-in-out 1s;
+}
+
+.firma-j:hover .izq2-j{
+  opacity: 1;
+  transition: all 1s ease-in-out;
+}
+
+@keyframes girar {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
