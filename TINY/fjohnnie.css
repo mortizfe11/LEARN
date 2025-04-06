@@ -83,6 +83,10 @@
   transition: all 1s ease-in-out;
 }
 
+.firma-j > br{
+  display: none;
+}
+
 @keyframes girar {
   from {
     transform: rotate(360deg);
