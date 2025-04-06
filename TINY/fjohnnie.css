@@ -11,8 +11,8 @@
   align-items: center;
   flex-wrap: wrap;
   border: 2px solid var(--col2);
-  padding: 5px;
-  overflow: hidden;
+  padding: 5px;/*
+  overflow: hidden;*/
 }
 
 .icon-j{
@@ -29,12 +29,16 @@
 }
 .der-j, .der2-j{
   height: 140px;
-  width: 55px;
   padding: 10px;
   margin-right: 5px;
 }
 
+.der2-j{
+  width: 155px;
+}
+
 .der-j{
+  width: 55px;
   background: var(--col1);
   overflow: scroll;
   word-wrap: break-word;  
@@ -74,7 +78,7 @@
 }
 .izq2-j {
   opacity: 0;
-  transform: translate(0px,-160px);
+  transform: translate(80px,-320px);
   transition: all 1s ease-in-out 1s;
 }
 
