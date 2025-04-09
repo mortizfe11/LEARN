@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&family=UnifrakturMaguntia&display=swap');
 
 .firma-j{
-  font-size: 16px;
+  font-size: 15px;
   --col1: #0c0c0d;
   --col2: #874434;
   width: 280px;
@@ -12,12 +12,9 @@
   align-items: center;
   flex-wrap: wrap;
   border: 2px solid var(--col2);
-  padding: 5px;
+  padding: 5px 0px 5px 5px;
   overflow: hidden;
-}
-
-.der-j, .izq-j{
-  display: inline-block;
+  gap: 0px 5px;
 }
 
 .icon-j{
@@ -35,7 +32,6 @@
 .der-j, .der2-j{
   height: 140px;
   padding: 10px;
-  margin-right: 5px;
 }
 
 .der2-j{
@@ -80,7 +76,7 @@
 
 .firma-j:hover .der2-j{
   opacity: 1;
-  transform: translate(85px,-215px);
+  transform: translate(85px,-55px);
   z-index: 10;
   transition: ease-in 1s;
 }
@@ -91,7 +87,7 @@
 }
 .izq2-j {
   opacity: 0;
-  transform: translate(0px,-160px);
+  transform: translate(75px,-320px);
   transition: all 1s ease-in-out 1s;
 }
 
