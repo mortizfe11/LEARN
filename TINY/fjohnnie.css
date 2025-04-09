@@ -40,12 +40,24 @@
 .der-j{
   width: 55px;
   background: var(--col1);
-  overflow: scroll;
+  overflow-y: scroll;
+  scrollbar-color: #222 var(--col1);
+  scrollbar-width: auto;
+  scrollbar-gutter: auto;
   word-wrap: break-word;  
   -webkit-hyphens: auto;
   -moz-hyphens: auto;
   -ms-hyphens: auto;
   hyphens: auto;
+}
+
+.der-j::-webkit-scrollbar-thumb,.der-j::-moz-scrollbar-thumb
+{
+	background: var(--col1);
+}
+.der-j::-webkit-scrollbar
+{
+	width: 8px;
 }
 
 .der-j b{
