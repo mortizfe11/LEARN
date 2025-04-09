@@ -55,10 +55,6 @@
 {
 	background: var(--col1);
 }
-.der-j::-webkit-scrollbar
-{
-	width: 2px;
-}
 
 .der-j b{
   color: var(--col2);
