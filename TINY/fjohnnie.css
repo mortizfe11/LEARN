@@ -38,7 +38,7 @@
 }
 
 .der-j{
-  width: 55px;
+  width: 50px;
   background: var(--col1);
   overflow-y: scroll;
   scrollbar-color: #222 var(--col1);
@@ -63,7 +63,7 @@
 .der2-j{
   font: 400 normal 2.2rem "UnifrakturMaguntia", cursive;
   opacity: 0;
-  transform: translate(90px,0px);
+  transform: translate(85px,0px);
   transition: ease-in 1s;
   z-index: 10;
 }
@@ -75,7 +75,7 @@
 
 .firma-j:hover .der2-j{
   opacity: 1;
-  transform: translate(90px,-55px);
+  transform: translate(85px,-55px);
   z-index: 10;
   transition: ease-in 1s;
 }
