@@ -1,9 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 .f-magnus{
-  --txt-color: #e9f2f3cd;
-  --bold-color: #5e9cd7e2;
-  --bg-color: #0e244fef;
   --fft: "Tinos", serif;
   font-size: 16px;
   position: relative;
