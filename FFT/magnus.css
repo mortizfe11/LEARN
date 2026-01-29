@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.f-magnus{
+  --txt-color: #e9f2f3cd;
+  --bold-color: #5e9cd7e2;
+  --bg-color: #0e244fef;
+  --fft: "Tinos", serif;
+  font-size: 16px;
+  position: relative;
+  width: 300px;
+  height: 200px;
+  margin: 0 auto;
+  background: #222;
+  background: url(https://i.imgur.com/A7zSzN2.png);
+  overflow: hidden;
+  outline: 2px solid var(--txt-color);
+  transition: all 1s;
+  transition-delay: 1.6s;
+}
+
+.c1, .c2, .c3, .c4, .c5{
+  position: absolute;
+  width: 60px;
+  height: 200px;
+  background: var(--bg-color);
+  transition: all 1s;
+}
+.c1{
+  transform: translate(0px, 200px);
+  transition-delay: 1s;
+}
+.c2{
+  transform: translate(60px, 200px);
+  transition-delay: 0.8s;
+}
+.c3{
+  transform: translate(120px, 200px);
+  transition-delay: 0.6s;
+}
+.c4{
+  transform: translate(180px, 200px);
+  transition-delay: 0.4s;
+}
+.c5{
+  transform: translate(240px, 200px);
+  transition-delay: 0.2s;
+}
+
+.f-magnus:hover .c1{
+  transform: translate(0px, 0px);
+  transition: all 1s;
+}
+.f-magnus:hover .c2{
+  transform: translate(60px, 0px);
+  transition: all 1s;
+  transition-delay: 0.2s;
+}
+.f-magnus:hover .c3{
+  transform: translate(120px, 0px);
+  transition: all 1s;
+  transition-delay: 0.4s;
+}
+.f-magnus:hover .c4{
+  transform: translate(180px, 0px);
+  transition: all 1s;
+  transition-delay: 0.6s;
+}
+.f-magnus:hover .c5{
+  transform: translate(240px, 0px);
+  transition: all 1s;
+  transition-delay: 0.8s;
+}
+
+.f-magnus:hover{
+  outline-color: var(--bg-color);
+  transition: all 1s;
+}
+
+.ic-magnus{
+  text-align: center;
+  padding: 0px 0px 10px 0px;
+  display: block;
+  font-size: 2rem;
+  color: var(--txt-color);
+}
+
+.txt-magnus{
+  position: absolute;
+  width: 260px;
+  height: 160px;
+  padding: 20px;
+  opacity: 0;
+  transition: all .2s;
+  color: var(--txt-color); 
+  font: 400 0.8rem var(--fft);
+  text-align: justify;
+  line-height: 160%;
+  overflow: auto;
+}
+
+.f-magnus:hover .txt-magnus{
+  opacity: 1;
+  transition: all 1s;
+  transition-delay: 1.4s;
+}
+.txt-magnus u {
+  font-weight: 500;
+  text-decoration: none;
+  background: var(--bold-color);
+  padding: 2px;
+  color: var(--txt-color);
+}
+
+.txt-magnus b, .txt-magnus i{
+  color: var(--bold-color)!important; 
+}
+
+.txt-magnus b {
+  font-weight: 900;
+}
