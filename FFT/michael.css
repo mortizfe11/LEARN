@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&family=UnifrakturMaguntia&display=swap");
+.firm-cont {
+    --fft: "UnifrakturMaguntia", cursive;
+    --fft2: "Tinos", serif;
+    font-size: 16px;
+    width: 300px;
+    height: 200px;
+    margin: 0 auto;
+    position: relative;
+    background: var(--color-group);
+    outline: 0.3em solid var(--color-extra);
+    overflow: hidden;
+}
+.firm-child {
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background: url(https://2img.net/i.imgur.com/AOEPr4p.png);
+    transition: ease 1s;
+}
+.firm-cont:hover .firm-child {
+    mix-blend-mode: multiply;
+    transform: translate(0px, -200px);
+    transition: ease 1s;
+}
+.firm-cont:hover {
+    outline-offset: -0.65em;
+    outline-color: #222;
+}
+.firm-cont:hover .letter-child {
+    transform: translate(-50%, 150%);
+}
+.firm-cont:hover .frase-child {
+    opacity: 1;
+}
+.firm-cont:hover,
+.firm-cont:hover .letter-child,
+.firm-cont:hover .frase-child {
+    transition: ease 0.5s;
+}
+.letter-child,
+.frase-child {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.letter-child {
+    margin: 0 auto;
+    color: var(--color-extra);
+    transition: ease 1s;
+    font: normal 400 4.5rem var(--fft);
+}
+.frase-child {
+    width: 240px;
+    margin: 0 auto;
+    color: #cccccced;
+    padding: 20px;
+    opacity: 0;
+    font: normal 400 0.75rem var(--fft2);
+}
+.frase-child strong,
+.frase-child b {
+    color: var(--color-group) !important;
+    font-weight: 700;
+}
+.frase-child em {
+    text-transform: uppercase;
+    letter-spacing: 0.015em;
+    border-bottom: 2px dotted var(--color-group);
+    font-style: italic;
+}
