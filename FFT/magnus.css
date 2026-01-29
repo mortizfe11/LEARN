@@ -7,7 +7,6 @@
   width: 300px;
   height: 200px;
   margin: 0 auto;
-  background: url(var(--img-magnus));
   overflow: hidden;
   outline: 2px solid var(--txt-color);
   transition: all 1s;
