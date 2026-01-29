@@ -118,3 +118,7 @@
 .txt-magnus b {
   font-weight: 900;
 }
+
+.f-magnus > br{
+  display: none;
+}
