@@ -99,6 +99,9 @@
 .txt-break b {
   font-weight: 900;
 }
+.txt-break i {
+  font-weight: 400;
+}
 
 .f-break > br{
   display: none;
