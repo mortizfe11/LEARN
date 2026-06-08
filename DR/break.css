@@ -108,4 +108,7 @@
   & :where(i, u, em) {
     color: var(--ic-color);
   }
+  & :where(b, strong) {
+    color: var(--ic-color);
+  }
 }
