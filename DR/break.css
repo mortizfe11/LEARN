@@ -103,3 +103,9 @@
 .f-break > br{
   display: none;
 }
+
+.specialgroups .f-break, .postbody .content .f-break {
+  & :where(i, u, em) {
+    color: var(--ic-color);
+  }
+}
