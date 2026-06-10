@@ -1,0 +1,61 @@
+  @import url("https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap");
+
+  .bg-victor,
+  .f-victor,
+  .f-victor:hover,
+  .f-victor:hover .bg-victor,
+  .f-victor:hover .txt-victor,
+  .img-victor,
+  .txt-victor {
+    transition: 1s ease-in
+  }
+
+  .f-victor {
+    width: 300px;
+    height: 200px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .bg-victor,
+  .img-victor {
+    position: relative;
+    height: 100%;
+    width: 100%;
+  }
+
+  .img-victor {
+    background: var(--my-image);
+    transform: translate(0, 0);
+  }
+
+  .bg-victor {
+    background: var(--clr-bg);
+    opacity: 0;
+    mix-blend-mode: hard-light;
+  }
+
+  .txt-victor {
+    position: absolute;
+    height: 90%;
+    width: 90%;
+    padding: 10%;
+    transform: translate(0, 115%);
+    font: 900 3.5rem "Archivo Black", sans-serif;
+    color: var(--clr-text);
+    text-shadow: .1rem .02rem 0 var(--clr-shadow);
+  }
+
+  .f-victor:hover .bg-victor {
+    opacity: 1;
+  }
+
+  .f-victor:hover .txt-victor {
+    transform: translate(0, 40%);
+  }
+
+  .f-victor:hover {
+    outline: .2rem dotted var(--clr-text);
+    outline-offset: 0.5rem;
+  }
