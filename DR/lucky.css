@@ -136,3 +136,11 @@
 .f-lucky > br{
   display: none;
 }
+.specialgroups .f-lucky, .postbody .content .f-lucky {
+  & :where(i, u, em){
+    color: var(--bold-color);
+  }
+  & :where(u){
+    color: var(--txt-dark);
+  }
+}
