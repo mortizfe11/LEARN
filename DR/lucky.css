@@ -95,7 +95,7 @@
   font: 400 0.8rem var(--fft);
   text-align: justify;
   line-height: 160%;
-  overflow: auto;
+  overflow-y: auto;
 }
 
 .f-lucky:hover .txt-lucky{
