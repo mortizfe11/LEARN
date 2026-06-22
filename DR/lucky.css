@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.f-lucky{
+  --fft: "Tinos", serif;
+  font-size: 16px;
+  position: relative;
+  width: 300px;
+  height: 200px;
+  margin: 0 auto;
+  background: url(https://i.imgur.com/Z2uQ1rd.png);
+  overflow: hidden;
+  outline: 2px solid var(--color-outline);
+  transition: all 1s;
+  transition-delay: 1.6s;
+}
+
+.c1, .c2, .c3, .c4, .c5{
+  position: absolute;
+  width: 60px;
+  height: 100%;
+  background: var(--bg-color);
+  mix-blend-mode: multiply;
+  transition: all 1s;
+  
+}
+.c1{
+  transform: translate(0px, 200px);
+  transition-delay: 1s;
+}
+.c2{
+  transform: translate(60px, 200px);
+  transition-delay: 0.8s;
+}
+.c3{
+  transform: translate(120px, 200px);
+  transition-delay: 0.6s;
+}
+.c4{
+  transform: translate(180px, 200px);
+  transition-delay: 0.4s;
+}
+.c5{
+  transform: translate(240px, 200px);
+  transition-delay: 0.2s;
+}
+
+.f-lucky:hover .c1{
+  transform: translate(0px, 0px);
+  transition: all 1s;
+}
+.f-lucky:hover .c2{
+  transform: translate(60px, 0px);
+  transition: all 1s;
+  transition-delay: 0.2s;
+}
+.f-lucky:hover .c3{
+  transform: translate(120px, 0px);
+  transition: all 1s;
+  transition-delay: 0.4s;
+}
+.f-lucky:hover .c4{
+  transform: translate(180px, 0px);
+  transition: all 1s;
+  transition-delay: 0.6s;
+}
+.f-lucky:hover .c5{
+  transform: translate(240px, 0px);
+  transition: all 1s;
+  transition-delay: 0.8s;
+}
+
+.f-lucky:hover{
+  outline-color: var(--bg-color);
+  transition: all 1s;
+}
+
+.ic-lucky{
+  text-align: center;
+  padding: 0px 0px 10px 0px;
+  display: block;
+  font-size: 2.5rem;
+  color: var(--txt-white);
+  animation: pulse 1.5s infinite;
+}
+
+.txt-lucky{
+  position: absolute; 
+  width: 260px;
+  height: 160px;
+  padding: 20px;
+  opacity: 0;
+  transition: all .2s; 
+  background: transparent;
+  color: var(--txt-white); 
+  font: 400 0.8rem var(--fft);
+  text-align: justify;
+  line-height: 160%;
+  overflow: auto;
+}
+
+.f-lucky:hover .txt-lucky{
+  opacity: 1;
+  transition: all 1s;
+  transition-delay: 1.4s;
+}
+.txt-lucky u {
+  font-size: 13px;
+  font-weight: 500;
+  text-decoration: none;
+  background: var(--bold-color);
+  padding: 0.02rem;
+  color: var(--txt-dark);
+  text-transform: uppercase;
+  letter-spacing: -0.01rem;
+}
+
+.txt-lucky b, .txt-lucky i{
+  color: var(--bold-color)!important; 
+}
+
+.txt-lucky b {
+  font-weight: 900;
+}
+
+ @keyframes pulse {
+  0% {
+     transform: scale(1);
+     }
+ 50% {
+     transform: scale(1.2);
+     }
+100% {
+     transform: scale(1);
+     }
+}
+.f-lucky > br{
+  display: none;
+}
