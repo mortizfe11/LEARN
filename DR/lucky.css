@@ -7,7 +7,7 @@
   width: 300px;
   height: 200px;
   margin: 0 auto;
-  background: url(https://i.imgur.com/Z2uQ1rd.png);
+  background: var(--img-lucky);
   overflow: hidden;
   outline: 2px solid var(--color-outline);
   transition: all 1s;
