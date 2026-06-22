@@ -132,7 +132,7 @@
   display: none;
 }
 .specialgroups .f-lucky, .postbody .content .f-lucky {
-  & :where(i, u, em){
+  & :where(i, b, em){
     color: var(--bold-color);
   }
   & :where(u){
