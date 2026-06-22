@@ -109,7 +109,7 @@
   text-decoration: none;
   background: var(--bold-color);
   padding: 0.02rem;
-  color: var(--txt-dark);
+  color: var(--txt-dark)!important;
   text-transform: uppercase;
   letter-spacing: -0.01rem;
 }
